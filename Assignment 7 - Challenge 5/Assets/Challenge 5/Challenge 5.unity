@@ -929,7 +929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 116231999}
   gameOverText: {fileID: 919200876}
-  timerText: {fileID: 0}
+  timerText: {fileID: 2139829253}
   timer: 60
   titleScreen: {fileID: 92482018}
   restartButton: {fileID: 1902351379}
