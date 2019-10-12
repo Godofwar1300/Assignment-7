@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * (Christopher Green)
+ * (TargetX.cs)
+ * (Assignment 7 - Challenge 5)
+ * (The script handles how the "target" objects work. I.E. the good and bad items to click on.)
+ */
+
 public class TargetX : MonoBehaviour
 {
     private Rigidbody rb;
@@ -27,7 +34,7 @@ public class TargetX : MonoBehaviour
     }
 
     // When target is clicked, destroy it, update score, and generate explosion
-    private void OnMouseEnter()
+    private void OnMouseClick()
     {
         if (gameManagerX.isGameActive)
         {
